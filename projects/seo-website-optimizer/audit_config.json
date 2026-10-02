@@ -1,0 +1,22 @@
+{
+  "audit_engine_version": "1.0.0-core",
+  "fingerprint_algorithm_version": "1.0.0",
+  "categories": {
+    "A": {"name":"Crawlability & Indexability","weight":18.0},
+    "B": {"name":"On-Page SEO Semantics","weight":20.0},
+    "C": {"name":"Content / Entity / Trust Completeness","weight":16.0},
+    "D": {"name":"AI Readiness / Machine Comprehension","weight":16.0},
+    "E": {"name":"UX / Conversion / Contactability","weight":12.0},
+    "F": {"name":"Performance / Mobile / Technical Health","weight":12.0},
+    "G": {"name":"Structured Data / Social / Media Signals","weight":6.0}
+  },
+  "critical_caps": {"CAP-01":20.0,"CAP-02":30.0,"CAP-03":35.0},
+  "score_bands": [
+    [90.0,100.0,"Excellent foundation"],
+    [80.0,89.99,"Strong"],
+    [70.0,79.99,"Good / material improvements available"],
+    [60.0,69.99,"Needs improvement"],
+    [40.0,59.99,"Weak"],
+    [0.0,39.99,"Critical"]
+  ]
+}
